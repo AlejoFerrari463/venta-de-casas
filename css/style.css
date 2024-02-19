@@ -1,0 +1,93 @@
+/* NAV - INICIO */
+
+nav {
+
+    background-color: aqua;
+
+}
+
+
+.navbar-imagen {
+
+    height: 50px;
+    width: auto;
+
+
+}
+
+.navbar-collapse {
+
+    display: flex;
+    justify-content: center;
+    margin-right: 130px;
+
+}
+
+.nav-link {
+
+    color: red;
+
+}
+
+/* NAV - FIN */
+
+
+/* INDEX - INICIO */
+
+
+.cards-contenedor {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 50px;
+  
+
+
+}
+
+.cards {
+
+    height: 500px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 5px;
+   
+
+}
+
+.carousel {
+
+    margin: 10px 10px;
+
+}
+
+
+.carousel-inner {
+
+    text-align: center;
+    box-shadow: 2px 2px 6px black;
+
+
+}
+
+.cards-imagen {
+
+
+    height: 250px;
+    object-fit: contain;
+
+
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .cards-contenedor {
+
+        grid-template-columns: 1fr;
+        
+    
+    }
+}
