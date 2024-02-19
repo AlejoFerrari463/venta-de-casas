@@ -39,26 +39,84 @@ nav {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
     grid-gap: 50px;
-  
-
+    justify-items: center;
 
 }
 
 .cards {
 
-    height: 500px;
+    padding-bottom: 30px;
+    height: 100%;
     width: 100%;
     background-color: pink;
     border-radius: 5px;
+
    
 
 }
 
+.cards-imagen {
+
+    height: 350px;
+    object-fit: contain;
+
+
+}
+
+.cards-metros-habitaciones-contenedor {
+
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.cards-metros-habitaciones-descripcion {
+
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 5px;
+    width: 100%;
+
+
+}
+
+.cards-metros-habitaciones-imagen {
+
+    height: 50px;
+    width: auto;
+    
+
+}
+
+.cards-precio {
+
+    border-top: 1px solid black;
+    padding-top: 10px;
+
+}
+
+/* INDEX - FIN */
+
+
+
+@media screen and (max-width: 992px) {
+    .cards-contenedor {
+
+        grid-template-columns: 1fr;
+        
+    
+    }
+}
+
+/* CAROUSEL - INICIO */
+
 .carousel {
 
-    margin: 10px 10px;
+    margin: 30px 20px;
 
 }
 
@@ -71,23 +129,5 @@ nav {
 
 }
 
-.cards-imagen {
+/* CAROUSEL - FIN */
 
-
-    height: 250px;
-    object-fit: contain;
-
-
-
-}
-
-
-
-@media screen and (max-width: 992px) {
-    .cards-contenedor {
-
-        grid-template-columns: 1fr;
-        
-    
-    }
-}
