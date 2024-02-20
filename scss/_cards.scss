@@ -15,10 +15,10 @@
     padding-bottom: 30px;
     height: 100%;
     width: 100%;
-    background-color: pink;
+    background-color: $color-terciario;
     border-radius: 5px;
-
-   
+    box-shadow: 5px 5px 12px $color-primario, -5px -5px 12px $color-primario;
+   color: white;
 
 }
 

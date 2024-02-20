@@ -1,6 +1,11 @@
 /* NAV - INICIO */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
-  background-color: aqua;
+  background-color: #1E1B31;
 }
 
 .navbar-imagen {
@@ -15,7 +20,7 @@ nav {
 }
 
 .nav-link {
-  color: red;
+  color: #F7CCAC;
 }
 
 /* NAV - FIN */
@@ -31,8 +36,10 @@ nav {
   padding-bottom: 30px;
   height: 100%;
   width: 100%;
-  background-color: pink;
+  background-color: #C69B7B;
   border-radius: 5px;
+  box-shadow: 5px 5px 12px #1E1B31, -5px -5px 12px #1E1B31;
+  color: white;
 }
 
 .cards-imagen {
@@ -73,34 +80,33 @@ nav {
 
 .carousel-inner {
   text-align: center;
-  box-shadow: 0px 0px 10px black;
-  background-color: aqua;
+  box-shadow: 0px 0px 12px black;
 }
 
 .carousel-control-prev {
-  color: blue;
+  color: white;
   opacity: 100%;
 }
 
 .carousel-control-prev:hover {
-  color: brown;
+  color: white;
 }
 
 .carousel-control-prev:focus {
-  color: brown;
+  color: white;
 }
 
 .carousel-control-next {
   opacity: 100%;
-  color: blue;
+  color: white;
 }
 
 .carousel-control-next:hover {
-  color: brown;
+  color: white;
 }
 
 .carousel-control-next:focus {
-  color: brown;
+  color: white;
 }
 
 /* CAROUSEL - FIN */
