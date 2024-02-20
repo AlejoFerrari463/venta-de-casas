@@ -4,13 +4,21 @@
   padding: 0;
 }
 
+body {
+  background: #bbb;
+}
+
 nav {
   background-color: #1E1B31;
 }
 
+.navbar-brand {
+  color: #F7CCAC;
+}
+
 .navbar-imagen {
-  height: 50px;
-  width: auto;
+  height: auto;
+  width: 35px;
 }
 
 .navbar-collapse {
@@ -40,12 +48,14 @@ nav {
   border-radius: 5px;
   box-shadow: 5px 5px 12px #1E1B31, -5px -5px 12px #1E1B31;
   color: white;
+  font-weight: bold;
 }
 
 .cards-imagen {
-  height: 350px;
+  height: 300px;
+  width: 70%;
   padding: 10px 0;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .cards-metros-habitaciones-contenedor {
@@ -90,10 +100,12 @@ nav {
 
 .carousel-control-prev:hover {
   color: white;
+  opacity: 100%;
 }
 
 .carousel-control-prev:focus {
   color: white;
+  opacity: 100%;
 }
 
 .carousel-control-next {
@@ -103,10 +115,12 @@ nav {
 
 .carousel-control-next:hover {
   color: white;
+  opacity: 100%;
 }
 
 .carousel-control-next:focus {
   color: white;
+  opacity: 100%;
 }
 
 /* CAROUSEL - FIN */
@@ -115,10 +129,8 @@ nav {
   width: 900px;
   height: auto;
   right: 200px;
-}
-
-.modal-content {
   text-align: center;
+  background-color: #C69B7B;
 }
 
 .modal-title {

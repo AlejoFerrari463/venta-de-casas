@@ -18,15 +18,18 @@
     background-color: $color-terciario;
     border-radius: 5px;
     box-shadow: 5px 5px 12px $color-primario, -5px -5px 12px $color-primario;
-   color: white;
+    color: white;
+    font-weight: bold;
 
 }
 
 .cards-imagen {
 
-    height: 350px;
+    height: 300px;
+    width: 70%;
     padding: 10px 0;
-    object-fit: contain;
+    object-fit: fill;
+   
 
 
 }

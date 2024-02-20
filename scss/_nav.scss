@@ -7,6 +7,12 @@
 
 }
 
+body {
+
+    background: #bbb;
+
+}
+
 
 
 nav {
@@ -15,13 +21,20 @@ nav {
 
 }
 
+.navbar-brand {
+
+    color: $color-secundario;
+
+
+}
+
 
 
 
 .navbar-imagen {
 
-    height: 50px;
-    width: auto;
+    height: auto;
+    width: 35px;
 
 
 }
