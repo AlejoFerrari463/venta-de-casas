@@ -55,10 +55,10 @@
 
         <div class="cards-contenedor">
 
-            <div class="cards">
+            <div class="cards ">
 
                 <div id="carouselExampleCasa1" class="carousel slide">
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="carousel-item active">
                             <img class="cards-imagen"
                                 src="https://images.emojiterra.com/google/android-12l/512px/1f3e0.png"
@@ -87,25 +87,27 @@
                     </button>
                 </div>
 
-                <div class="cards-metros-habitaciones-contenedor" >
+                <div class="cards-metros-habitaciones-contenedor">
 
-                    <div class="cards-metros-habitaciones-descripcion" >300m2 <i class="fa-solid fa-compass-drafting fa-lg ms-2"></i></div>
-                    <div class="cards-metros-habitaciones-descripcion" >4 <i class="fa-solid fa-bed fa-lg ms-2"></i></div>
+                    <div class="cards-metros-habitaciones-descripcion">300m2 <i
+                            class="fa-solid fa-compass-drafting fa-lg ms-2"></i></div>
+                    <div class="cards-metros-habitaciones-descripcion">4 <i class="fa-solid fa-bed fa-lg ms-2"></i>
+                    </div>
 
                 </div>
 
-                <div class="text-center mt-3" >
-                   Casa en venta en San Fernando, Zona Norte
+                <div class="text-center mt-3">
+                    Casa en venta en San Fernando, Zona Norte
                 </div>
 
-                <div class="text-center mt-2 fw-bold" >
+                <div class="text-center mt-2 fw-bold">
                     Peron 335
                 </div>
 
-                <div class="text-center mt-2 fw-bold fs-5 cards-precio" >
+                <div class="text-center mt-2 fw-bold fs-5 cards-precio">
                     USD180.000
                 </div>
-                
+
 
             </div>
 
@@ -144,29 +146,110 @@
                     </button>
                 </div>
 
-                <div class="cards-metros-habitaciones-contenedor" >
+                <div class="cards-metros-habitaciones-contenedor">
 
-                    <div class="cards-metros-habitaciones-descripcion" >300m&sup2; <i class="fa-solid fa-compass-drafting fa-lg ms-2"></i></div>
-                    <div class="cards-metros-habitaciones-descripcion" >4 <i class="fa-solid fa-bed fa-lg ms-2"></i></div>
+                    <div class="cards-metros-habitaciones-descripcion">300m&sup2; <i
+                            class="fa-solid fa-compass-drafting fa-lg ms-2"></i></div>
+                    <div class="cards-metros-habitaciones-descripcion">4 <i class="fa-solid fa-bed fa-lg ms-2"></i>
+                    </div>
 
                 </div>
 
-                <div class="text-center mt-3" >
-                   Casa en venta en San Fernando, Zona Norte
+                <div class="text-center mt-3">
+                    Casa en venta en San Fernando, Zona Norte
                 </div>
 
-                <div class="text-center mt-2 fw-bold" >
+                <div class="text-center mt-2 fw-bold">
                     Peron 335
                 </div>
 
-                <div class="text-center mt-2 fw-bold fs-5 cards-precio" >
+                <div class="text-center mt-2 fw-bold fs-5 cards-precio">
                     USD180.000
                 </div>
-                
+
 
             </div>
 
 
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">USD180.000</h1>
+
+                    <div id="carouselExampleCasa1Modal" class="carousel slide">
+                        <div class="carousel-inner" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="carousel-item active">
+                                <img class="cards-imagen-modal"
+                                    src="https://images.emojiterra.com/google/android-12l/512px/1f3e0.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="cards-imagen-modal"
+                                    src="https://images.emojiterra.com/google/android-12l/512px/1f3e0.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="cards-imagen-modal"
+                                    src="https://images.emojiterra.com/google/android-12l/512px/1f3e0.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCasa1Modal"
+                            data-bs-slide="prev">
+                            <i class="fa-solid fa-caret-left fa-2xl"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCasa1Modal"
+                            data-bs-slide="next">
+                            <i class="fa-solid fa-caret-right fa-2xl"></i>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="cards-metros-habitaciones-contenedor">
+                       <div>
+                        <p class="fw-bold" >UBICACION</p>
+                        <p class="modal-correccion">San Fernando</p>
+                       </div>
+
+                       <div>
+                        <p class="fw-bold">DORMITORIOS</p>
+                        <p class="modal-correccion">4</p>
+                       </div>
+
+                       <div>
+                        <p class="fw-bold">DESCRIPCION</p>
+                        <p class="modal-correccion">Departamento</p>
+                       </div>
+
+                       <div>
+                        <p class="fw-bold">BAÑOS</p>
+                        <p class="modal-correccion">2</p>
+                       </div>
+
+                       <div>
+                        <p class="fw-bold">SUPERFICIE</p>
+                        <p class="modal-correccion" >300 metros cuadrados</p>
+                       </div>
+
+                       <div>
+                        <p class="fw-bold">COCHERA</p>
+                        <p class="modal-correccion">Si</p>
+                       </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
