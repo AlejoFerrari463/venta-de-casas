@@ -1,0 +1,61 @@
+/* CAROUSEL - INICIO */
+
+.carousel {
+
+    margin: 30px 20px;
+    background-color: re;
+    
+
+}
+
+
+.carousel-inner {
+
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    background-color: aqua;
+
+}
+
+.carousel-control-prev{
+
+    color: blue;
+    opacity: 100%;
+
+}
+
+.carousel-control-prev:hover{
+
+    color: brown;
+   
+
+}
+
+.carousel-control-prev:focus{
+
+    color: brown;
+
+}
+
+.carousel-control-next{
+
+    opacity: 100%;
+    color: blue;
+
+}
+
+.carousel-control-next:hover{
+
+    color: brown;
+
+}
+
+.carousel-control-next:focus{
+
+    color: brown;
+
+}
+
+
+
+/* CAROUSEL - FIN */

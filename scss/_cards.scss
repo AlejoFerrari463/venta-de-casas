@@ -1,0 +1,70 @@
+/* CARDS - INICIO */
+
+
+.cards-contenedor {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    justify-items: center;
+
+}
+
+.cards {
+
+    padding-bottom: 30px;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    border-radius: 5px;
+
+   
+
+}
+
+.cards-imagen {
+
+    height: 350px;
+    padding: 10px 0;
+    object-fit: contain;
+
+
+}
+
+.cards-metros-habitaciones-contenedor {
+
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.cards-metros-habitaciones-descripcion {
+
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 5px;
+    width: 100%;
+
+
+}
+
+.cards-metros-habitaciones-imagen {
+
+    height: 50px;
+    width: auto;
+    
+
+}
+
+.cards-precio {
+
+    border-top: 1px solid black;
+    padding-top: 10px;
+
+
+}
+
+/* CARDS - FIN */

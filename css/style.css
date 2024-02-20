@@ -1,223 +1,148 @@
 /* NAV - INICIO */
-
 nav {
-
-    background-color: aqua;
-
+  background-color: aqua;
 }
 
-
 .navbar-imagen {
-
-    height: 50px;
-    width: auto;
-
-
+  height: 50px;
+  width: auto;
 }
 
 .navbar-collapse {
-
-    display: flex;
-    justify-content: center;
-    margin-right: 130px;
-
+  display: flex;
+  justify-content: center;
+  margin-right: 142px;
 }
 
 .nav-link {
-
-    color: red;
-
+  color: red;
 }
 
 /* NAV - FIN */
-
-
-/* INDEX - INICIO */
-
-
+/* CARDS - INICIO */
 .cards-contenedor {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    justify-items: center;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  justify-items: center;
 }
 
 .cards {
-
-    padding-bottom: 30px;
-    height: 100%;
-    width: 100%;
-    background-color: pink;
-    border-radius: 5px;
-
-   
-
+  padding-bottom: 30px;
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+  border-radius: 5px;
 }
 
 .cards-imagen {
-
-    height: 350px;
-    padding: 10px 0;
-    object-fit: contain;
-
-
+  height: 350px;
+  padding: 10px 0;
+  object-fit: contain;
 }
 
 .cards-metros-habitaciones-contenedor {
-
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .cards-metros-habitaciones-descripcion {
-
-    text-align: center;
-    font-size: 20px;
-    border: 1px solid red;
-    padding: 5px;
-    width: 100%;
-
-
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid red;
+  padding: 5px;
+  width: 100%;
 }
 
 .cards-metros-habitaciones-imagen {
-
-    height: 50px;
-    width: auto;
-    
-
+  height: 50px;
+  width: auto;
 }
 
 .cards-precio {
-
-    border-top: 1px solid black;
-    padding-top: 10px;
-
-
+  border-top: 1px solid black;
+  padding-top: 10px;
 }
 
-/* INDEX - FIN */
-
-
-
-@media screen and (max-width: 992px) {
-    .cards-contenedor {
-
-        grid-template-columns: 1fr;
-        
-    
-    }
-}
-
+/* CARDS - FIN */
 /* CAROUSEL - INICIO */
-
 .carousel {
-
-    margin: 30px 20px;
-    background-color: re;
-    
-
+  margin: 30px 20px;
+  background-color: re;
 }
-
 
 .carousel-inner {
-
-    text-align: center;
-    box-shadow: 0px 0px 10px black;
-    background-color: aqua;
-
+  text-align: center;
+  box-shadow: 0px 0px 10px black;
+  background-color: aqua;
 }
 
-.carousel-control-prev{
-
-    color: blue;
-    opacity: 100%;
-
+.carousel-control-prev {
+  color: blue;
+  opacity: 100%;
 }
 
-.carousel-control-prev:hover{
-
-    color: brown;
-   
-
+.carousel-control-prev:hover {
+  color: brown;
 }
 
-.carousel-control-prev:focus{
-
-    color: brown;
-
+.carousel-control-prev:focus {
+  color: brown;
 }
 
-.carousel-control-next{
-
-    opacity: 100%;
-    color: blue;
-
+.carousel-control-next {
+  opacity: 100%;
+  color: blue;
 }
 
-.carousel-control-next:hover{
-
-    color: brown;
-
+.carousel-control-next:hover {
+  color: brown;
 }
 
-.carousel-control-next:focus{
-
-    color: brown;
-
+.carousel-control-next:focus {
+  color: brown;
 }
-
-
 
 /* CAROUSEL - FIN */
-
-
 /* MODAL - INICIO */
-
 .modal-content {
-
-    width: 900px;
-    height: auto;
-    right: 200px;
-
-
+  width: 900px;
+  height: auto;
+  right: 200px;
 }
 
 .modal-content {
-
-    text-align: center;
-
+  text-align: center;
 }
 
 .modal-title {
-
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid black;
-
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid black;
 }
 
 .cards-imagen-modal {
-
-    height: 370px;
-    width: 470px;
-    padding: 10px;
+  height: 370px;
+  width: 470px;
+  padding: 10px;
 }
 
 .modal-body {
-
-    margin-top: -15px;
-    margin-bottom: 20px;
-
+  margin-top: -15px;
+  margin-bottom: 20px;
 }
 
 .modal-correccion {
-
-    margin-top: -15px;
-
+  margin-top: -15px;
 }
+
+/* MODAL - FIN */
+/* MEDIAS - INICIO */
+@media screen and (max-width: 992px) {
+  .cards-contenedor {
+    grid-template-columns: 1fr;
+  }
+}
+/* MEDIAS - FIN */
+
+/*# sourceMappingURL=style.css.map */
