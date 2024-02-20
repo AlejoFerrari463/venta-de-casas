@@ -10,10 +10,15 @@ body {
 
 nav {
   background-color: #1E1B31;
+  font-size: 20px;
 }
 
 .navbar-brand {
   color: #F7CCAC;
+}
+
+.navbar-brand:hover {
+  color: white;
 }
 
 .navbar-imagen {
@@ -29,6 +34,10 @@ nav {
 
 .nav-link {
   color: #F7CCAC;
+}
+
+.nav-link:hover {
+  color: white;
 }
 
 /* NAV - FIN */

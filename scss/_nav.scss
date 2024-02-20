@@ -18,6 +18,8 @@ body {
 nav {
 
     background-color: $color-primario;
+    font-size: 20px;
+    
 
 }
 
@@ -27,6 +29,13 @@ nav {
 
 
 }
+
+.navbar-brand:hover {
+
+    color: white;
+
+}
+
 
 
 
@@ -52,6 +61,14 @@ nav {
     color: $color-secundario;
 
 }
+
+.nav-link:hover {
+
+    color: white;
+
+}
+
+
 
 /* NAV - FIN */
 
