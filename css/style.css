@@ -1,4 +1,4 @@
-/* NAV - INICIO */
+/* GENERALES - INICIO */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +8,12 @@ body {
   background: #bbb;
 }
 
+h1 {
+  color: #1E1B31;
+}
+
+/* GENERALES - FIN */
+/* NAV - INICIO */
 nav {
   background-color: #1E1B31;
   font-size: 20px;
@@ -43,14 +49,15 @@ nav {
 /* NAV - FIN */
 /* CARDS - INICIO */
 .cards-contenedor {
+  margin-top: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 70px;
   justify-items: center;
 }
 
 .cards {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   height: 100%;
   width: 100%;
   background-color: #C69B7B;
@@ -64,20 +71,21 @@ nav {
   height: 300px;
   width: 70%;
   padding: 10px 0;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .cards-metros-habitaciones-contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+  padding: 5px;
+  font-size: 20px;
 }
 
 .cards-metros-habitaciones-descripcion {
-  text-align: center;
   font-size: 20px;
-  border: 1px solid red;
-  padding: 5px;
-  width: 100%;
+  padding-bottom: 6px;
+  border-bottom: 3px dashed #1E1B31;
 }
 
 .cards-metros-habitaciones-imagen {
@@ -86,15 +94,14 @@ nav {
 }
 
 .cards-precio {
-  border-top: 1px solid black;
-  padding-top: 10px;
+  border-top: 1px solid #1E1B31;
+  padding-top: 15px;
 }
 
 /* CARDS - FIN */
 /* CAROUSEL - INICIO */
 .carousel {
   margin: 30px 20px;
-  background-color: re;
 }
 
 .carousel-inner {
@@ -133,6 +140,16 @@ nav {
 }
 
 /* CAROUSEL - FIN */
+.btn {
+  background-color: #3C365F;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #1E1B31;
+  color: white;
+}
+
 /* MODAL - INICIO */
 .modal-content {
   width: 900px;
@@ -145,7 +162,8 @@ nav {
 .modal-title {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #1E1B31;
+  color: white;
 }
 
 .cards-imagen-modal {
@@ -161,6 +179,15 @@ nav {
 
 .modal-correccion {
   margin-top: -15px;
+}
+
+.modal-cards-metros-habitaciones-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.modal-footer {
+  border-top: 2px solid #1E1B31;
 }
 
 /* MODAL - FIN */

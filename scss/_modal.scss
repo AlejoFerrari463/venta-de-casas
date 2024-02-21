@@ -17,7 +17,8 @@
 
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $color-primario;
+    color: white;
 
 }
 
@@ -38,6 +39,19 @@
 .modal-correccion {
 
     margin-top: -15px;
+
+}
+
+.modal-cards-metros-habitaciones-contenedor {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.modal-footer {
+
+    border-top:2px solid $color-primario;
 
 }
 
