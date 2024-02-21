@@ -8,10 +8,8 @@
 
 
 .carousel-inner {
-
     text-align: center;
     box-shadow: 0px 0px 12px black;
-
 
 }
 
@@ -19,6 +17,8 @@
 
     color: white;
     opacity: 100%;
+    width: 50px;
+  
 
 }
 
@@ -39,8 +39,9 @@
 
 .carousel-control-next{
 
-    opacity: 100%;
     color: white;
+    opacity: 100%;
+    width: 50px;
 
 }
 

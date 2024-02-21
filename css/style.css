@@ -69,9 +69,7 @@ nav {
 
 .cards-imagen {
   height: 300px;
-  width: 70%;
-  padding: 10px 0;
-  object-fit: contain;
+  width: 100%;
 }
 
 .cards-metros-habitaciones-contenedor {
@@ -112,6 +110,7 @@ nav {
 .carousel-control-prev {
   color: white;
   opacity: 100%;
+  width: 50px;
 }
 
 .carousel-control-prev:hover {
@@ -125,8 +124,9 @@ nav {
 }
 
 .carousel-control-next {
-  opacity: 100%;
   color: white;
+  opacity: 100%;
+  width: 50px;
 }
 
 .carousel-control-next:hover {
