@@ -99,7 +99,7 @@ nav {
 /* CARDS - FIN */
 /* CAROUSEL - INICIO */
 .carousel {
-  margin: 30px 20px;
+  margin: 10px 20px;
 }
 
 .carousel-inner {
@@ -154,7 +154,7 @@ nav {
 .modal-content {
   top: 0px;
   width: 900px;
-  height: auto;
+  height: 100%;
   right: 200px;
   text-align: center;
   background-color: #C69B7B;
@@ -170,12 +170,6 @@ nav {
 .cards-imagen-modal {
   height: 400px;
   width: 100%;
-  padding: 10px;
-}
-
-.modal-body {
-  margin-top: -15px;
-  margin-bottom: 20px;
 }
 
 .modal-correccion {
@@ -199,7 +193,21 @@ nav {
   }
 }
 /* MODAL WIDTH - INICIO */
-@media screen and (min-width: 0px) and (max-width: 415px) {
+@media screen and (min-width: 0px) and (max-width: 299px) {
+  .modal-content {
+    width: 230px;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .cards-imagen-modal {
+    height: 150px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 415px) {
   .modal-content {
     width: 280px;
     right: 0;
@@ -211,7 +219,6 @@ nav {
   .cards-imagen-modal {
     height: 200px;
     width: 100%;
-    padding: 0px;
   }
 }
 @media screen and (min-width: 416px) and (max-width: 575px) {
@@ -226,7 +233,6 @@ nav {
   .cards-imagen-modal {
     height: 330px;
     width: 100%;
-    padding: 10px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 640px) {
@@ -241,7 +247,6 @@ nav {
   .cards-imagen-modal {
     height: 330px;
     width: 100%;
-    padding: 10px;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 940px) {
@@ -251,6 +256,13 @@ nav {
   }
 }
 /* MODAL WIDTH - FIN */
+/* MODAL HEIGHT - INICIO */
+@media screen and (max-height: 490px) {
+  .cards-imagen-modal {
+    height: 240px;
+    width: 100%;
+  }
+}
 /* MEDIAS - FIN */
 
 /*# sourceMappingURL=style.css.map */

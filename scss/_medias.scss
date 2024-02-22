@@ -10,7 +10,31 @@
 
 /* MODAL WIDTH - INICIO */
 
-@media screen and  (min-width: 0px) and (max-width: 415px) {
+@media screen and  (min-width: 0px) and (max-width: 299px) {
+    
+    .modal-content {
+        
+        width: 230px;
+        right: 0;
+        top: 20px;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+
+        
+      
+    
+    }
+    .cards-imagen-modal {
+
+        height: 150px;
+        width: 100%;
+     
+    }
+
+}
+
+@media screen and  (min-width: 300px) and (max-width: 415px) {
     
     .modal-content {
         
@@ -29,7 +53,7 @@
 
         height: 200px;
         width: 100%;
-        padding: 0px;
+     
     }
 
 }
@@ -53,7 +77,7 @@
 
         height: 330px;
         width: 100%;
-        padding: 10px;
+        
     }
 
 }
@@ -74,7 +98,7 @@
 
         height: 330px;
         width: 100%;
-        padding: 10px;
+       
     }
 
 }
@@ -95,5 +119,22 @@
 
 
 /* MODAL WIDTH - FIN */
+
+/* MODAL HEIGHT - INICIO */
+@media screen and (max-height: 490px) {
+    
+
+
+    .cards-imagen-modal {
+
+        height: 240px;
+        width: 100%;
+       
+
+    }
+
+
+}
+
 
 /* MEDIAS - FIN */

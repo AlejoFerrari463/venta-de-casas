@@ -4,7 +4,7 @@
 
     top: 0px;
     width: 900px;
-    height: auto;
+    height: 100%;
     right: 200px;
     text-align: center;
     background-color: $color-terciario;
@@ -27,15 +27,10 @@
 
     height: 400px;
     width: 100%;
-    padding: 10px;
+  
 }
 
-.modal-body {
 
-    margin-top: -15px;
-    margin-bottom: 20px;
-
-}
 
 .modal-correccion {
 
