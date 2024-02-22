@@ -29,7 +29,7 @@ nav {
 
 .navbar-imagen {
   height: auto;
-  width: 35px;
+  width: 25px;
 }
 
 .navbar-collapse {
@@ -152,6 +152,7 @@ nav {
 
 /* MODAL - INICIO */
 .modal-content {
+  top: 0px;
   width: 900px;
   height: auto;
   right: 200px;
@@ -197,6 +198,59 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+/* MODAL WIDTH - INICIO */
+@media screen and (min-width: 0px) and (max-width: 415px) {
+  .modal-content {
+    width: 280px;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .cards-imagen-modal {
+    height: 200px;
+    width: 100%;
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 416px) and (max-width: 575px) {
+  .modal-content {
+    width: 400px;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .cards-imagen-modal {
+    height: 330px;
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 640px) {
+  .modal-content {
+    width: 400px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .cards-imagen-modal {
+    height: 330px;
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 940px) {
+  .modal-content {
+    width: 600px;
+    right: 50px;
+  }
+}
+/* MODAL WIDTH - FIN */
 /* MEDIAS - FIN */
 
 /*# sourceMappingURL=style.css.map */
