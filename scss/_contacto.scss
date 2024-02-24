@@ -1,0 +1,28 @@
+.contenedorFormulario {
+
+    box-shadow: 2px 2px 6px black;
+    padding: 20px 70px;
+
+}
+
+.formulario-slot{
+
+    border: none;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-bottom: 3px solid $color-primario;
+
+}
+
+.formulario-textarea {
+
+    border: none;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-bottom: 3px solid $color-primario;
+    resize: none;
+    height: 300px;
+
+}

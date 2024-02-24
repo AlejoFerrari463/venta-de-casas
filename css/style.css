@@ -97,6 +97,29 @@ nav {
 }
 
 /* CARDS - FIN */
+.contenedorFormulario {
+  box-shadow: 2px 2px 6px black;
+  padding: 20px 70px;
+}
+
+.formulario-slot {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border-bottom: 3px solid #1E1B31;
+}
+
+.formulario-textarea {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border-bottom: 3px solid #1E1B31;
+  resize: none;
+  height: 300px;
+}
+
 /* CAROUSEL - INICIO */
 .carousel {
   margin: 10px 20px;
@@ -265,5 +288,10 @@ nav {
   }
 }
 /* MEDIAS - FIN */
+@media screen and (max-width: 600px) {
+  .contenedorFormulario {
+    padding: 20px 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
