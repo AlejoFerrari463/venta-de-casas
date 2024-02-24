@@ -222,7 +222,7 @@ nav {
 
 /* MODAL - FIN */
 /* MEDIAS - INICIO */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .cards-contenedor {
     grid-template-columns: 1fr;
   }
