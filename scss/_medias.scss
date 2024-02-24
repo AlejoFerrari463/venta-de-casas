@@ -117,6 +117,31 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    
+    .contenedorFormulario {
+        padding: 20px 10px;
+    
+    }
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    
+    .navbar-collapse {
+
+        display: flex;
+        justify-content: end;
+        margin-right: 0px;
+        text-align: end;
+    
+    }
+
+
+}
+
 
 /* MODAL WIDTH - FIN */
 
@@ -136,17 +161,7 @@
 
 }
 
+/* MODAL HEIGHT - FIN */
 
 /* MEDIAS - FIN */
-
-@media screen and (max-width: 600px) {
-    
-    .contenedorFormulario {
-        padding: 20px 10px;
-    
-    }
-
-
-
-}
 

@@ -53,7 +53,22 @@ nav {
     color: white;
 
 }
+.navbar-toggler {
 
+
+    width: 50px;
+    height: 40px;
+    border: 2px solid white;
+    color: $color-secundario;
+
+
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 6px white;
+   
+}
 
 
 /* NAV - FIN */

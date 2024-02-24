@@ -46,6 +46,17 @@ nav {
   color: white;
 }
 
+.navbar-toggler {
+  width: 50px;
+  height: 40px;
+  border: 2px solid white;
+  color: #F7CCAC;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 6px white;
+}
+
 /* NAV - FIN */
 /* CARDS - INICIO */
 .cards-contenedor {
@@ -279,6 +290,19 @@ nav {
     right: 50px;
   }
 }
+@media screen and (max-width: 600px) {
+  .contenedorFormulario {
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+    margin-right: 0px;
+    text-align: end;
+  }
+}
 /* MODAL WIDTH - FIN */
 /* MODAL HEIGHT - INICIO */
 @media screen and (max-height: 490px) {
@@ -287,11 +311,7 @@ nav {
     width: 100%;
   }
 }
+/* MODAL HEIGHT - FIN */
 /* MEDIAS - FIN */
-@media screen and (max-width: 600px) {
-  .contenedorFormulario {
-    padding: 20px 10px;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
