@@ -184,6 +184,25 @@ nav {
   color: white;
 }
 
+.footer-contenedor {
+  padding-top: 10px;
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-links {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-links:visited {
+  color: brown;
+}
+
 /* MODAL - INICIO */
 .modal-content {
   top: 0px;
