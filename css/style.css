@@ -32,12 +32,6 @@ nav {
   width: 25px;
 }
 
-.navbar-collapse {
-  display: flex;
-  justify-content: center;
-  margin-right: 142px;
-}
-
 .nav-link {
   color: #F7CCAC;
 }
@@ -316,9 +310,7 @@ nav {
 }
 @media screen and (max-width: 991px) {
   .navbar-collapse {
-    display: flex;
     justify-content: end;
-    margin-right: 0px;
     text-align: end;
   }
 }
