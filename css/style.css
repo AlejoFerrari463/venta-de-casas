@@ -32,6 +32,11 @@ nav {
   width: 25px;
 }
 
+.navbar-collapse {
+  justify-content: center;
+  margin-right: 142px;
+}
+
 .nav-link {
   color: #F7CCAC;
 }
