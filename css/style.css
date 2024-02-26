@@ -317,6 +317,7 @@ nav {
   .navbar-collapse {
     justify-content: end;
     text-align: end;
+    margin-right: 0px;
   }
 }
 /* MODAL WIDTH - FIN */
